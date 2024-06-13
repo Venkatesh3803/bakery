@@ -1,0 +1,90 @@
+.nav-container {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-t-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.social-links ul,
+.about-links ul {
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+
+.social-links ul li {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    background: #EC286F;
+}
+
+
+.shop-online {
+    display: flex;
+    gap: 10px;
+}
+
+.shop-online button {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: medium;
+    border: 1px solid black;
+    cursor: pointer;
+    background: transparent;
+}
+
+.shop-online button:first-child {
+    color: white;
+    background: #EC286F;
+    border: none;
+}
+
+.about-links ul li {
+    padding: 0 0.2rem;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.about-links ul li:hover {
+    color: #EC286F;
+    text-decoration: underline;
+}
+
+.nav-b-links {
+    background: #EC286F;
+    padding: 1px 0;
+    width: 100%;
+
+}
+
+
+.nav-b-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 16px;
+    color: white;
+}
+
+.nav-b-links ul li{
+    display: flex ;
+    align-items: center;
+}
